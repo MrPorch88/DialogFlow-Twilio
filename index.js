@@ -76,4 +76,4 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
   intentMap.set("Submit Ticket - Issue Category", ticketCollection);
   agent.handleRequest(intentMap);
 }
-);
+);//:)
